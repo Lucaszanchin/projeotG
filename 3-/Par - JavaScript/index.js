@@ -11,7 +11,7 @@ if (numAleato % 2 == 0) {
 //Verifica se o número que o usuário escolheu é par.
 
 else {
-    alert('O número que você escolheu é par, ele é ímpar.');
+    alert('O número que você escolheu não é par, ele é ímpar.');
     
 }
 //Verifica se o número escolhido é ímpar.
