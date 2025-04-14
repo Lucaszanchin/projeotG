@@ -1,6 +1,6 @@
 let valorCompra = parseFloat(prompt("Qual o valor da sua compra?")); //Essa variável armazena o valor da compra.
-let valorDesconto = valorCompra*0.1 
-let valorTotal = valorCompra - valorDesconto
+let valorDesconto = (valorCompra*0.1);
+let valorTotal = (valorCompra - valorDesconto);
 
 if (isNaN(valorCompra)) {
     alert('Erro: Você não digitou um número válido');
